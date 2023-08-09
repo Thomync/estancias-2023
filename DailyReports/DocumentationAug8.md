@@ -2,23 +2,34 @@
 
 ## Status
 
-* Still playing with some websites to learn more about HTML and CSS.
-* Finished the second video of the 5th course.
+* Resolved the errors with Node.
+* Finishing the second video of the 5th course.
+* First app and host created.
 
 ## Blockers
 
-* I'm having some problems with NodeJS to create the first app.
+* None
 
 ## Observations
 
-* I think, for the few websites that I have visited, that libreries for JS are a must.
-* I'm using some websites to practice and learn more about CSS:
-    * https://cssgridgarden.com/#es
-    * https://css-tricks.com/archives/
-    * https://cssbattle.dev/
+* I'll show how I resolved the errors and the finished website below:
 
-![evidence1](Images/Aug071.jpg "Error creando la app con NodeJS")
+![evidence1](Images/Aug081.jpg "Instalando otra máquina virtual de Ubuntu")
 
-![evidence1](Images/Aug072.jpg "Segundo ejercicio en cssbattle")
+![evidence1](Images/Aug082.jpg "Error al descargar nvm")
 
-![evidence1](Images/Aug073.jpg "Tercer ejercicio en cssbattle")
+![evidence1](Images/Aug083.jpg "Error con el directorio")
+
+![evidence1](Images/Aug084.jpg "Ejecutando los comandos")
+
+![evidence1](Images/Aug085.jpg "Seguía el error con el comando npx")
+
+![evidence1](Images/Aug086.jpg "Instalando el create-react-app")
+
+![evidence1](Images/Aug087.jpg "...")
+
+![evidence1](Images/Aug088.jpg "App instalada")
+
+![evidence1](Images/Aug089.jpg "Aplicación inicializada")
+
+![evidence1](Images/Aug0810.jpg "Cambios hechos")
