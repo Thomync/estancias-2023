@@ -10,6 +10,7 @@
 ## Blockers
 
 * My internet was fail yesterday since 4:00pm until almost 3:00am, so I couldn't continue watching the video and I haven't more advance today. I hope internet coming back in the morning.
+* Update: Internet is back.
 
 ## Observations
 
