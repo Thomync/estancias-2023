@@ -42,7 +42,8 @@ const field = 'height'
 
 console.log(persona[field])
 
-*/
+*/ //  Javascript es parecido a Java en cuando al manejo de los métodos
+   //  y paradigmas
 
 const suma = (op1, op2) => {
     console.log(op1)

@@ -1,53 +1,76 @@
-* {
-    margin: 0;
-    padding: 0;
+/* No recuerdo como poner comentarios en CSS pero esto funciona */
+
+/* Con '*' se otorgan las propiedades las propiedades enlistadas a todos
+   los elementos de html */
+
+* { 
+    margin: 0; /* El margen es la distancia entre el elemento actual y el elemento
+                  que lo contiene */
+
+    padding: 0; /* El padding es la distancia entre el elemento actual y el
+                   elemento que contiene */
+
 }
 
-h1{
+/* Estas dimensiones se pueden ver gráficamente con las herramientas 
+   de desarrollador del navegador */
+
+ /* Se pueden otorgar propiedades a cualquier elemento que se haya ocupado en 
+    el archivo html, por ejemplo, a los encabezados:
+ */
+
+ h1{ /* Se pueden asignar cambios a la fuente de dos maneras. La primera: */
     font-size: 20px;
     font-family: sans-serif;
     font-weight: bold;
-    text-align: left;
+    text-align: left; /* Elegimos la alineación a la izquierda */
 }
 
-h2{
+
+h2{ /* La segunda: */
    font: bold 14 px sans-serif;
    text-align: left;
 }
 
-/* header, section, footer, aside, nav, article, hgroup {
+/* Así podemos asignar los estilos a varios elemento a la vez
+    header, section, footer, aside, nav, article, hgroup {
     border: 1 px solid black;
-} */
+    }
+*/
 
 body {
-text-align: center;
+text-align: center; /* Alineación centrada del texto */
 }
 
 time p{
-    color: #999;
+    color: #999; /* Elegimos el color de la fuente */
     text-align: right;
 }
 
 article{
-    background-color:honeydew;
-    border: 1px solid #999;
+    background-color:honeydew; /* Cambiamos el color del fondo */
+    border: 1px solid #999; /* Agregamos un borde sólido de 1px de grosor y 
+                                 del color que se desee */
     padding: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 15px; /* Ajustamos solamente el margen inferior */
 }
 
 article footer{
     text-align: right;
-    margin-top: 20px;
+    margin-top: 20px; /* Ajustamos solamente el margen superior */
 }
 
 group p{
     text-align: left;
 }
 
+/* Ahora podemos asignar propiedades a los elementos pos su clase con 
+   '.' + className */
+
 .agrupar{
     background-color: aliceblue;
     border: 1px solid black;
-    width: 980px;
+    width: 980px; /* Dimensionamos el ancho del elemento */
     margin-top: 100px;
     margin:auto;
     /* padding: 100px; */
@@ -69,7 +92,8 @@ group p{
     list-style: none;
     padding: 5px;
     font: bold 14px verdana;
-    display: inline-block;
+    display: inline-block; /* Cambiamos la forma en la que se acomodan
+                              los elementos a inline-block (horizontal) */
 }
 
 .encabezado h1{
@@ -80,7 +104,9 @@ group p{
     margin: 20px;
     width: 60%;
     /* border: 1px solid black; */
-    float: left;
+    float: left; /* Hacemos que el elemento salga de donde está contenido,
+                    lo cual puede ocasionar que las dimensiones del elemento anterior
+                    se vean afectadas */
     /* background-color: darkgrey; */
 }
 
