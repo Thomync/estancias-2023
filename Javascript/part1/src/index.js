@@ -16,9 +16,9 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-*/ // Termina código del primer video //
+// Termina código del primer video //
 
-///* // Inicia código del segundo video //
+// Inicia código del segundo video //
 
 import React from 'react'
 import ReactDOM from 'react-dom'
@@ -61,4 +61,124 @@ setInterval( () => {// Le enviamos la función a repetir
   contador++
   refresh()
 }, 1000);// Y cada cuantos milisegundos
-//*/
+
+
+// Esta función renderiza cada segundo todos los elementos en la pantalla, lo
+// resulta poco eficiente, pero a continuación se muestra una alternativa.
+
+// Termina código del segundo video //
+
+// Inicia código del tercer video //
+
+import React, { useState } from 'react'
+import ReactDOM from 'react-dom'
+
+const App = (props) => {
+  
+  //const contador = useState(0);
+  //const contadorValue = contador[0];
+  //const updateContador = contador[1];
+
+  const [getContador, setContador] = useState(0);
+
+  // La línea de arriba equivale a las 3 anteriores
+
+  console.log("render");
+
+  //setContador( prevContador => {
+    //return (prevContador+1);
+  //})
+
+  const handleClick = () => {
+    setContador(getContador+1);
+  }
+  const handleClickReset = () => {
+    setContador(0);
+  }
+
+  const isEven = getContador % 2 === 0;
+  const mensajePar = isEven ? "Número par" : "Número impar";
+
+  return(
+    <div>
+      <p>Probando actualizaciones </p>
+      <h1>{getContador}</h1>
+      <p>{mensajePar}</p>
+      <button // Añadimos un elemento de tipo botón
+        onClick = {handleClick}// Añadimos un evento de click y le pasamos una
+                               // función 
+      >
+        Incrementar
+      </button>
+
+      <button // Añadimos un elemento de tipo botón
+        onClick = {handleClickReset}// Añadimos un evento de click y le pasamos una
+                               // función 
+      >
+        Reset
+      </button>
+    </div>
+  );
+}// Con esto, cada que se da un click se incrementa el contador
+
+ReactDOM.render(<App />, document.getElementById('root'));
+*/
+// Termina el primer ejercicio
+
+// Inicia el segundo
+
+import { useState } from "react";
+import ReactDOM from "react-dom";
+//import "styles.css"
+
+const App = () => {
+  //const [ getLeft, setLeft ] = useState(10);
+  //const [ getRight, setRoiht ] = useState(20);
+
+  const [ counters, setCounter] = useState({
+    left: 0,
+    right: 0,
+    clicks: 0,
+    mensaje: "Funcionando",
+  });
+
+  const [ getClicks, setClicks ] = useState([])
+
+  const handleClickLeft = () => {
+    const newCounterState = {
+      ...counters, // Con esto damos a entender que conservaremos todos los
+        // datos sin algún cambio y que solo modificaremos los posteriores
+      left: counters.left + 1,
+      clicks: counters.clicks + 1,
+    }
+    setCounter(newCounterState);
+    setClicks( prevClicks => ([...prevClicks,  'L']))
+  };
+
+  const handleClickRight = () => {
+    const newCounterState = {
+      ...counters,
+      right: counters.right + 1,
+      clicks: counters.clicks + 1,
+    }
+    setCounter(newCounterState);
+    setClicks( prevClicks => ([...prevClicks,  'R']))
+  };
+
+  return(
+    <div>
+      {counters.left}
+      <button onClick = {handleClickLeft} >Left</button>
+      <button onClick = {handleClickRight} >right</button>
+      {counters.right}
+      <p>Clicks totales: {counters.clicks}</p>
+      <p>{counters.mensaje}</p>
+      {getClicks.join(", ")}
+    </div>
+  );
+
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
+// Termina código del tercer video
