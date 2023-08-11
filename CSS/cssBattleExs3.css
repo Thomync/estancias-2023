@@ -1,0 +1,37 @@
+<div class="contenedor">
+  <div class="circulo exterior"></div>
+  <div class="circulo central"></div>
+</div>
+<style>
+  body {
+    background: #6592CF;
+  }
+  .contenedor {
+    width: 300px;
+    height: 150px;
+    background: #243D83;
+    margin: 75px auto;
+    position: relative;
+  }
+  .circulo {
+    border-radius: 50%;
+  }
+  .exterior {
+    position: absolute;
+    left: 25px;
+    top: -50px;
+    width: 250px;
+    height: 250px;
+    background: transparent;
+    box-sizing: border-box;
+    border: 50px solid #6592CF;
+  }
+  .central {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 125px;
+    top: 50px;
+    background: #EEB850;
+  }
+</style>

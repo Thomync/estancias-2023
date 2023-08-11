@@ -1,0 +1,19 @@
+<body>
+  <div></div>
+</body>
+
+<style>
+  *{
+    margin: 0;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    background: #b5e0ba;
+  }
+  body{
+    width: 400px;
+    height: 300px;
+    background: #5d3a3a
+  }
+</style>

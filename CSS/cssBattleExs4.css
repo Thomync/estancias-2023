@@ -1,0 +1,64 @@
+<div class = "contenedor">
+  <div class="circulo C"> </div>
+  <div class="cuadro SC"> </div>
+  <div class="cuadro II"> </div>
+  <div class="circulo I"> </div>
+  <div class="cuadro ID"> </div>
+  <div class="circulo D"> </div>
+</div>
+<style>
+  body {
+    background: #62306D;
+  }
+  div{
+    position:absolute;
+  }
+  .contenedor {
+    width: 300px;
+    height: 200px;
+    background: transparent;
+    margin: 41px;
+  }
+  .cuadro{
+    width: 100px;
+  }
+  .circulo{
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+    background:#F7EC7D;
+  }
+  .circulo.C{
+    top: 1px;
+    left: 101px;
+    border-radius: 100px 100px 0 0;
+  }
+  .cuadro.SC{
+    left: 101px;
+    top: 51px;
+    height: 50px;
+    background: #F7EC7D;
+  }
+   .cuadro.II{
+    top: 101px;
+    left: 1px;
+    height:50px;
+    background:#F7EC7D;
+  }
+  .circulo.I{
+    left: 1px;
+    top: 151px;
+    border-radius: 0 0 100px 100px;
+  }
+  .cuadro.ID{
+    top:101px;
+    left:201px;
+    height:50px;
+    background:#F7EC7D;
+  }
+  .circulo.D{
+    left: 201px;
+    top: 151px;
+    border-radius: 0 0 99px 99px;
+  }
+</style>
