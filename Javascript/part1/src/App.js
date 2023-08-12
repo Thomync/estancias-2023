@@ -1,6 +1,6 @@
 import './App.css';
-import Mensaje from './Mensaje';
-/*
+//import Mensaje from './Mensaje';
+
 function App() {
   return (
     <div className="App">
@@ -17,7 +17,7 @@ const App = () => {
     </div>
   )
 }
-*/
+
 
 const Description = () => {
   return <p>App del bootcamp</p>

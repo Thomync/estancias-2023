@@ -122,7 +122,7 @@ const App = (props) => {
 }// Con esto, cada que se da un click se incrementa el contador
 
 ReactDOM.render(<App />, document.getElementById('root'));
-*/
+
 // Termina el primer ejercicio
 
 // Inicia el segundo
@@ -182,3 +182,49 @@ const App = () => {
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // Termina código del tercer video
+*/
+// Inicia código del cuarto video
+
+//import "./index.css";
+
+const notes = [
+  {
+    id: 1,
+    content: "Mensaje informativo",
+    date: "2023-12-08",
+    priority: false
+  },
+  {
+    id: 12,
+    content: "Mensaje privado",
+    date: "2023-13-08",
+    priority: true
+  },
+  {
+    id: 3,
+    content: "Mensaje público",
+    date: "2023-14-08",
+    priority: false
+  }
+];
+
+console.log('hola');
+
+export default function App(){
+  return (
+    <ul>
+      {
+        notes.map(note => {
+          return (
+            <li key={note.id}>
+              <p>{note.content}</p>
+              <small>
+                <time>{note.date}</time>
+              </small>
+            </li>
+          );
+        })
+      }
+    </ul>
+  );
+}
