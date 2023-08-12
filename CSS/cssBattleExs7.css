@@ -1,0 +1,36 @@
+<div class="contenedor">
+  <div class="hoja"></div>
+  <div class="hoja"></div>
+  <div class="hoja"></div>
+</div>
+<style>
+  body{
+    background:#0B2429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    background: transparent;
+  }
+  .hoja{
+    position: absolute;
+    width:150px;
+    height:150px;
+    border-radius: 100px 0px 100px 0;
+  }
+  .hoja:first-child{
+    background: #1A4341;
+  }
+  .hoja:nth-child(2){
+    left:50px;
+    background: #998235;
+  }
+  .hoja:nth-child(3){
+    left:100px;
+    background: #F3AC3C;
+  }
+</style>
