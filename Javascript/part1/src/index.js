@@ -185,8 +185,11 @@ ReactDOM.render(<App />, document.getElementById('root'));
 */
 // Inicia código del cuarto video
 
-//import "./index.css";
-
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+import './index.css'
+/*
 const notes = [
   {
     id: 1,
@@ -228,3 +231,8 @@ export default function App(){
     </ul>
   );
 }
+*/
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+)
