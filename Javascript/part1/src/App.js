@@ -37,12 +37,12 @@ const App = () => {
 export default App;*/
 
 import React, { useState, useEffect } from 'react'
-//import Note from './components/Note'
-//import Notification from './components/Notification'
+import Note from './components/Note'
+import Notification from './components/Notification'
 import noteService from './services/notes'
 import loginService from './services/login'
-//import LoginForm from './components/LoginForm.js'
-//import NoteForm from './components/NoteForm.js'
+import LoginForm from './components/LoginForm.js'
+import NoteForm from './components/NoteForm.js'
 
 const App = () => {
   const [notes, setNotes] = useState([]) 

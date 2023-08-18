@@ -189,7 +189,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import './index.css'
-/*
+
 const notes = [
   {
     id: 1,
@@ -212,7 +212,7 @@ const notes = [
 ];
 
 console.log('hola');
-
+/*
 export default function App(){
   return (
     <ul>
