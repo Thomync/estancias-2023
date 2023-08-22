@@ -211,7 +211,7 @@ const notes = [
   }
 ];
 
-console.log('hola');
+console.log("Hola");
 /*
 export default function App(){
   return (
