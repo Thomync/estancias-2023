@@ -1,0 +1,40 @@
+<div>
+  <b></b>
+  <a></a>
+  <i></i>
+  
+</div>
+<style>
+  *{
+background:#007065;  
+}
+i{
+  top:42px;
+  border-color:transparent transparent #FFEECF;
+}
+a{
+  top:92px;
+  border-color:transparent transparent #F5C181;  
+}
+b{
+  top:142px;
+  border-color:transparent transparent #00A79D;
+}
+i,a,b{
+  position:absolute;
+  left:67px;
+  border-style:solid;
+  border-width:0 125px 100px 125px;
+}
+div{
+  position:relative;
+  width:400px;
+  height:300px;
+}
+h1{
+  font-family:sans-serif;
+  position:fixed;
+  transform:rotate(-90deg);
+  top:50%;
+}
+</style>
