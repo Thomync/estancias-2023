@@ -300,5 +300,7 @@ const Part = (props) => {
   )
 }
 
+ //Exercise 1.6
+
 
 ReactDOM.render(<App />, document.getElementById('root'))
