@@ -4,6 +4,7 @@
 
 * Completed the second exercises of the part2 of the fullstack course.
 * Working in my personal CV website.
+* I decided to work in the phonebook exercises today.
 
 ## Blockers
 
