@@ -256,7 +256,7 @@ section {
 .home-sci a:hover::before {
     width: 100%;
 }
-
+/*
 .home-imgHover {
     position: absolute;
     top: 0;
@@ -271,7 +271,7 @@ section {
     background: var(--bg-color);
     opacity: .8;
 }
-
+*/
 .about {
     display: flex;
     justify-content: center;
@@ -436,6 +436,11 @@ span{
 }
 
 .education-content .content p {
+    font-size: 1.6rem;
+    padding-top: .5rem;
+}
+
+.education-content .content li {
     font-size: 1.6rem;
     padding-top: .5rem;
 }
